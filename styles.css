@@ -28,8 +28,3 @@ header {
     color: #333;
     font-weight: bold;
 }
-
-/* script.js */
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("Profile page loaded successfully");
-});
