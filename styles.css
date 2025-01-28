@@ -1,78 +1,35 @@
 body {
     font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
-
 header {
     background: #333;
-    color: #fff;
-    padding: 10px 0;
+    color: white;
+    padding: 20px;
 }
-
-header h1 {
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.section {
-    padding: 20px 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-form label {
-    display: block;
-    margin-top: 10px;
-}
-
-form input, form textarea, form button {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-}
-
-form button {
-    background: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.resume-link {
-    display: inline-block;
-    margin: 10px 0;
-    padding: 10px 20px;
-    background: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+.profile img {
+    width: 150px;
+    border-radius: 50%;
     margin-top: 20px;
 }
+.social ul {
+    list-style: none;
+    padding: 0;
+}
+.social ul li {
+    display: inline;
+    margin: 10px;
+}
+.social ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
 
+/* script.js */
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Profile page loaded successfully");
+});
